@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<body><center><h1>Admin Functionalities</h1>
+</center>
+	<table border="1" style="width: 90%;font-size: 30px;">
+		
+		<tr>
+			<th>Action</th>
+			<th>Routes</th>
+			<th>Method Type</th>
+			<th>Method Name</th>
+			
+		</tr>
+		<tr>
+			<td>Allows the admin to enter and to access the admin panel.</td>
+			<td>/signIn</td>
+			<td>Post</td>
+			<td>signIn</td>
+		</tr>
+		<tr>
+			<td>Allows the admin to log out of the admin panel.</td>
+			<td>/signOut</td>
+			<td>Post</td>
+			<td>signOut</td>
+		</tr>
+		<tr>
+			<td>Allows the admin to create and manage contracts between the restaurant and Website</td>
+			<td>/contracts</td>
+			<td>Post</td>
+			<td>createContract</td>
+		</tr>
+
+		<tr>
+			<td> Allows the admin to view a list of all restaurants registered with the booking system, including basic information</td>
+			<td>/ViewRestaurantList</td>
+			<td>Post</td>
+			<td>ViewRestaurantList</td>
+			
+		</tr>
+
+		<tr>
+			<td>Allows the admin to review and verify important documents provided by the restaurant</td>
+			<td>/verifyDocuments</td>
+			<td>post</td>
+			<td>verifyDocuments</td>
+		</tr>
+
+		<tr>
+			<td>Allows the admin to block a user's account</td>
+			<td>/blockUser/:userId</td>
+			<td>Post</td>
+			<td>blockUser</td>
+		</tr>
+
+		<tr>
+			<td>Allows the admin to block a Resturent's account</td>
+			<td>/blockRestaurent/:restaurantId</td>
+			<td>Post</td>
+			<td>blockRestaurent</td>
+		</tr>
+
+		<tr>
+			<td>Allows the admin to reset password</td>
+			<td>/resetPassword/:AdminId</td>
+			<td>Post</td>
+			<td>resetPassword</td>
+		</tr>
+	</table>
+</body>
+
+</html>
